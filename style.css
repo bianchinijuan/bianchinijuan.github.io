@@ -1,0 +1,209 @@
+body {
+    background: #1D1E20;
+}
+
+
+nav {
+    height: 30px;
+    background: #1D1E20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+nav p {
+    font-size: large;
+    color: white;
+    padding-left: 120px;
+    font-family: "Alef", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex; /* Ensures all items stay in the same row */
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+    padding-right: 120px;
+}
+
+/* nav li {
+    margin: 0; /* Removes any extra margin */
+/* } */
+
+nav a {
+    display: block;
+    width: 100px;
+    margin: 10px;
+    height: 20px;   
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    background-color: #1D1E20;
+    font-family: "Alef", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #6FDF73;
+    text-decoration: underline;
+}   
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+  
+.hero-content {
+    flex: 1;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-left: 30px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-content h2 {
+    margin: 0;
+    font-family: "Alef", sans-serif;    
+    font-weight: bold;
+    font-size: 80px;
+    /* text-shadow: 0 0 100px #00E6E6, 0 0 5px #00E6E6, 0 0 5px #00E6E6; */
+      /* -webkit-text-stroke: 2px black;  */
+}
+
+
+.hero-content h3 {
+    margin: 0;
+    font-family: "Alef", sans-serif;
+    font-size: 30px;
+    color: #5FAC59;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: lighter;
+}
+
+.hero-content p {
+    font-family: "Alef", sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+ 
+}
+
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 80px 0 0;
+}
+
+.hero-image img {
+    width: 400px;
+    /* box-shadow: 0 0 20px rgba(0, 230, 230, 0.5); */
+}
+
+.download-section {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espacio entre el botón y los íconos */
+    padding-top: 20px;
+}
+
+
+.download-btn button {
+    color: #5FAC59;
+    font-family: "Alef", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #1D1E20;
+    border: 1px solid #5FAC59;
+    padding: 12px 26px;
+    border-radius: 70px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.download-btn button:hover {
+    color: white;
+    background-color: #5FAC59;
+}
+
+  
+.social-media-icons {
+    display: flex;
+    gap: 15px; /* Espacio entre íconos */
+}
+
+/* Aplica el borde circular al enlace, no al ícono */
+.social-media-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;  /* Ancho fijo para todos los círculos */
+    height: 45px; /* Altura fija para todos los círculos */
+    border: 1px solid #5FAC59;
+    border-radius: 50%; /* Esto hará un círculo perfecto */
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.social-media-icons a:hover {
+    background-color: #6FDF73;
+    transform: scale(1.1); /* Efecto de zoom al pasar el cursor */
+
+}
+
+.social-media-icons i {
+    font-size: 22px; /* Tamaño de los íconos */
+    color: #5FAC59;
+    transition: color 0.3s ease;
+}
+
+
+/* SECOND PART -------------  */
+/* ----------
+------------
+-------------------------- */
+
+
+
+.projects {
+    display: grid;
+    justify-content: center;
+}
+
+
+.projects-content {
+    padding-top: 200px;
+}
+
+
+.projects-content h2{
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 80px;
+    text-shadow: 0 0 100px #00E6E6, 0 0 5px #00E6E6, 0 0 5px #00E6E6;
+      /* -webkit-text-stroke: 2px black;  */
+}
+
+.projects-detail img {
+    margin-top: 80px;
+    border: 1px solid #77898970;
+    border-radius: 15px 15px 0 0;
+}
+
+
+
+
+
